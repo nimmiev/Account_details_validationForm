@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#myForm").validate({
         rules: {
-            name: {
+            uname: {
                 required: true,
                 minlength: 3,
                 maxlength: 50
